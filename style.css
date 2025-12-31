@@ -1,0 +1,20 @@
+.x-overlay {
+  position: absolute;
+  inset: -20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 75vw;
+  line-height: 1;
+  color: red;
+  font-weight: 900;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+.square {
+  width: 300px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+

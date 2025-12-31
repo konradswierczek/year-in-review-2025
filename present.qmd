@@ -1,0 +1,92 @@
+---
+title: Year In Review
+subtitle: "2025" 
+author: Konrad Swierczek
+format:
+    revealjs:
+        theme: night
+        css: style.css
+project:
+  output-dir: _site
+---
+
+## Professional
+::: {.fragment}
+<div class="x-overlay">✗</div>
+:::
+
+## Biblical Plagues
+:::: {.columns}
+
+::: {.column width="33%" .fragment}
+1) Fleas
+
+![(They're gone now!)](img/fleas_001.jpg)
+:::
+
+::: {.column width="33%" .fragment}
+2) Mold
+
+![RIP suitcase.](img/mold_001.JPG)
+:::
+
+::: {.column width="33%" .fragment}
+3) Access Nova Scotia
+
+![This province hates my car.](img/car_001.JPG)
+:::
+::::
+
+# Year in Food
+
+## The Year of the Sandwich???
+![](img/sandwich_001.jpeg){.square .fragment}
+![](img/sandwich_002.JPG){.square .fragment}
+![](img/sandwich_003.JPG){.square .fragment}
+![](img/sandwich_005.JPG){.square .fragment}
+![](img/sandwich_006.JPG){.square .fragment}
+![](img/sandwich_004.JPG){.square .fragment}
+
+## The Year of the Burger???
+:::{.r-stack}
+:::{.layer-a}
+![](img/burgers_002.jpeg){.square .fragment}
+![](img/burgers_003.JPG){.square .fragment}
+![](img/burgers_004.JPG){.square .fragment}
+![](img/burgers_005.jpeg){.square .fragment}
+![](img/burgers_006.JPG){.square .fragment}
+![](img/burgers_007.JPG){.square .fragment}
+:::
+:::{.layer-b}
+:::
+![](img/burgers_001.jpeg){.square .fragment}
+:::
+
+## From Scratch
+![](img/bread_002.JPG){.square .fragment}
+![](img/food_008.JPG){.square .fragment}
+![](img/pickle_004.JPG){.square .fragment}
+![](img/pickle_003.JPG){.square .fragment}
+![](img/pickle_001.JPG){.square .fragment}
+![](img/food_004.JPG){.square .fragment}
+
+## From Scratch cont.
+![](img/sausage_008.JPG){.square .fragment}
+![](img/sausage_001.JPG){.square .fragment}
+![](img/sausage_007.JPG){.square .fragment}
+
+## General Highlights
+![](img/food_006.JPG){.square .fragment}
+![](img/food_004.jpeg){.square .fragment}
+![](img/food_002.jpeg){.square .fragment}
+![](img/food_002.JPG){.square .fragment}
+![](img/food_001.jpeg){.square .fragment}
+![](img/food_010.JPG){.square .fragment}
+
+## Other
+::: {.fragment}
+![Hannah & Konrad at 46.12N, 60.46W](img/engage_001.jpeg){width="50%"}
+:::
+
+## Thank You
+![GitHub Repository](img/qr.png)

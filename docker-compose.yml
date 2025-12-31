@@ -1,0 +1,28 @@
+services:
+  work:
+    image: rocker/verse:4.5.0
+    container_name: quarto-work
+    volumes:
+      - .:/home/rstudio/project
+    working_dir: /home/rstudio/project
+    tty: true
+    stdin_open: true
+    command: sleep infinity
+
+  render:
+    image: rocker/verse:4.5.0
+    container_name: quarto-render
+    volumes:
+      - .:/home/rstudio/project
+    working_dir: /home/rstudio/project
+    command: quarto render present.qmd
+
+  preview:
+    image: rocker/verse:4.5.0
+    container_name: quarto-preview
+    volumes:
+      - .:/home/rstudio/project
+    working_dir: /home/rstudio/project
+    ports:
+      - "4200:4200"
+    command: quarto preview present.qmd --host 0.0.0.0 --port 4200
